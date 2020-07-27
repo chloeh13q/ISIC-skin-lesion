@@ -9,19 +9,19 @@
 
 # The 2017 ISIC Challenge on Skin Lesion Analysis Towards Melanoma Detection
 
-## Project Overview
+## Challenge Overview
 
-The official site for the 2017 ISIC challenge on skin lesion analysis towards melanoma detection can be found [here](https://challenge.isic-archive.com/landing/2017). The task is to design an algorithm to visually diagnose [melanoma](http://www.skincancer.org/skin-cancer-information/melanoma), the deadliest form of skin cancer.  In particular, the algorithm must be able to distinguish this malignant skin tumor from two types of benign lesions ([nevi](http://missinglink.ucsf.edu/lm/dermatologyglossary/nevus.html) and [seborrheic keratoses](https://www.aad.org/public/diseases/bumps-and-growths/seborrheic-keratoses)). 
+The official site for the 2017 ISIC challenge on skin lesion analysis towards melanoma detection can be found [here](https://challenge.isic-archive.com/landing/2017). The goal of this challenge is to design an algorithm to visually diagnose [melanoma](http://www.skincancer.org/skin-cancer-information/melanoma), the deadliest form of skin cancer.  In particular, the algorithm must be able to distinguish this malignant skin tumor from two types of benign lesions ([nevi](http://missinglink.ucsf.edu/lm/dermatologyglossary/nevus.html) and [seborrheic keratoses](https://www.aad.org/public/diseases/bumps-and-growths/seborrheic-keratoses)). 
 
 ![Skin Disease Classes][image1]
 
-## Obtaining Datasets
+## Datasets
 
 The original website for downloading data is no longer accessible. However, the provided training, validation, and test data are made available by Udacity via AWS.
 
-* [training data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/train.zip) (5.3 GB)
-* [validation data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/valid.zip) (824.5 MB)
-* [test data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/test.zip) (5.1 GB)
+* [Training data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/train.zip) (5.3 GB)
+* [Validation data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/valid.zip) (824.5 MB)
+* [Test data](https://s3-us-west-1.amazonaws.com/udacity-dlnfd/datasets/skin-cancer/test.zip) (5.1 GB)
 
 Training, validation, and test images should be placed in the `data/` folder, at `data/train/`, `data/valid/`, and `data/test/`, respectively.  Each folder should contain three sub-folders (`melanoma/`, `nevus/`, `seborrheic_keratosis/`), each containing representative images from one of the three image classes.
 
